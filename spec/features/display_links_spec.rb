@@ -1,5 +1,3 @@
-require 'link'
-
 feature 'Displaying Links' do
   scenario 'Display all the links on the Links page' do
     Link.create(title: 'Google', url: 'https://google.co.uk')
